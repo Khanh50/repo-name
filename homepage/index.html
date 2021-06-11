@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body style = "background-color : #edd3d4">
+        <div class = "head">
+            <p>BLACKPINK</p>
+            
+            <div class ="dropdown">
+                <button class="btn btn-danger btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                    BlackPink's songs on Youtube
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dyRsYk0LyA8">Lovesick Girls</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=vRXZj0DzXIA">Ice Cream</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=ioNng23DkIM">How you like that</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=2S24-y0Ij3Y">Kill this love</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=Amq-qlqbjYA">As if it's your last</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A">See more on their Youtube chanel</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div>
+            <div class = "right">
+                <p>
+                    Blackpink (Korean: 블랙핑크; commonly stylized as BLACKPINK or BLΛƆKPIИK) is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé, and Lisa. The group debuted in August 2016 with their single album Square One.
+                </p>
+                <p>
+                    Blackpink is the highest-charting female Korean act on the Billboard Hot 100, peaking at number 13 with "Ice Cream" (2020), and on the Billboard 200, peaking at number two with The Album (2020), the first-ever album by a Korean girl group to sell more than one million copies.They were the first Korean girl group to enter and top Billboard's Emerging Artists chart and to top the Billboard World Digital Song Sales chart three times. Blackpink was also the first female Korean act to receive a certification from the Recording Industry Association of America (RIAA) with their hit single "Ddu-Du Ddu-Du" (2018), whose music video is currently the most-viewed by a Korean group on YouTube. They have the most top 40 hits in the United Kingdom among all Korean artists, and their 2018 song "Kiss and Make Up", a collaboration with Dua Lipa, was the first by a Korean group to receive a certification from the British Phonographic Industry (BPI) and a platinum certification from the Australian Recording Industry Association (ARIA).
+                </p>
+                <p>
+                    Blackpink has broken numerous online records throughout their career. Their music videos for "Kill This Love" (2019) and "How You Like That" (2020) each set records for the most-viewed music video within the first 24 hours of release, with the latter breaking three and setting two Guinness World Records. They are also the first music group and Korean act to have three music videos each accumulate one billion views on YouTube. Blackpink is currently the most-followed girl group on Spotify and the most-subscribed music group, female act, and Asian act on YouTube. Their other accolades include the New Artist of the Year Award at the 31st Golden Disc Awards and the 26th Seoul Music Awards, the Mnet Asian Music Award for Best Female Group in 2020, an MTV Music Video Award (first win by K-pop girl group), inclusion on Forbes Korea's annual list of the most powerful celebrities in South Korea (placing first in 2019 and third in 2020), and recognition as the first female Korean group on Forbes' 30 Under 30 Asia.
+                </p>
+                <p id = "text"></p>
+                <button id = "about" style = "background-color: grey; border-radius:10px">About YG Entertainment Inc.</button>
+            </div>
+            <div class = "mid">
+                <!--to do later-->
+                <ol>
+                    <li>
+                        <span>1</span> 
+                        <a href = "jennie.html">JENNIE</a>
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <a href = "jisoo.html">JISOO</a>
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <a href = "rose.html">ROSÉ</a>
+                    </li>
+                    <li>
+                        <span>4</span>
+                         <a href = "lisa.html">LISA</a>
+                    </li>
+                </ol>
+            </div>
+            <div id = "add">
+                <p>
+                    All information in this page was taken from Wikipedia. For more information please go to <a class = "link" href = "https://en.wikipedia.org/wiki/Blackpink">
+                     Blackpink - Wikipedia</a>
+                </p>
+                <p style = "text-align: center; font-weight:bold;">Thanks for reading!</p>
+            </div>
+        </div>
+        <script>
+            let button = document.getElementById('about');
+            button.addEventListener('click', function(){
+                alert('YG Entertainment Inc. (Korean: YG 엔터테인먼트) is a South Korean entertainment company established in 1996 by Yang Hyun-suk. The company operates as a record label, talent agency, music production company, event management and concert production company, and music publishing house. In addition, the company operates a number of subsidiary ventures under a separate public traded company, YG PLUS, which includes a clothing line, a golf management agency, and a cosmetics brand.');
+            });
+           
+        </script>
+    </body>
+</html>
